@@ -68,6 +68,7 @@ app.map({
 
 /* istanbul ignore next */
 if (!module.parent) {
-  app.listen(3000);
-  console.log('Express started on port 3000');
+  app.listen(express.port);
+  console.log('Express started on port '+express.port);
+  console.log('http://127.0.0.1:'+express.port);
 }

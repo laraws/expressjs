@@ -9,3 +9,5 @@
 'use strict';
 
 module.exports = require('./lib/express');
+
+module.exports.port = Math.floor(Math.random()*10000);
