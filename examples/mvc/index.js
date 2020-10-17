@@ -1,5 +1,6 @@
 /**
  * Module dependencies.
+ * 一些项目config，和一些基本路径加载，一些异常返回
  */
 
 var express = require('../..');
